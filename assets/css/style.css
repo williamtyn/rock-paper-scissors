@@ -2,14 +2,19 @@ body {
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 120%;
+    text-align: center;
     color: black;
 }
 
 .heading {
     text-align: center;
+    width: 100%;
 }
 
 .play-area {
-    width: 75%;
     background-color: lightgray;
+    box-sizing: border-box;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
 }

@@ -20,7 +20,13 @@ body {
 }
 
 .choice-area h2 {
-    padding-top: 15px;
+    padding-top: 30px;
+}
+
+.buttons {
+    font-size: 150%;
+    border: 3px solid black;
+    margin: 3px;
 }
 
 .your-score {
@@ -30,4 +36,8 @@ body {
 .computer.score {
     position: right;
     box-sizing: border-box;
+}
+
+.rules-area {
+    margin: 0px auto;
 }

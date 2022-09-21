@@ -68,7 +68,5 @@ function showWinner() {
     if(computerChoices === "Paper" && yourChoice.innerHTML === "Scissors"){
         showResult = "You Win!"
     }
-
     result.innerHTML = showResult;
-   
 }

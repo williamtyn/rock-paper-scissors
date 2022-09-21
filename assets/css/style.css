@@ -22,3 +22,12 @@ body {
 .choice-area h2 {
     padding-top: 15px;
 }
+
+.your-score {
+    position: left;
+}
+
+.computer.score {
+    position: right;
+    box-sizing: border-box;
+}

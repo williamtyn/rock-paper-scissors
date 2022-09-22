@@ -89,7 +89,6 @@ function userScoreIncrement() {
     let userScore = document.getElementById("your-score").innerHTML;
     userScore++;
     document.getElementById('your-score').innerHTML = userScore;
-    console.log(userScore)
 }
 
 // Function to increment computerscore
@@ -97,5 +96,14 @@ function computerScoreIncrement() {
     let computerScore = document.getElementById("computer-score").innerHTML;
     computerScore++;
     document.getElementById('computer-score').innerHTML = computerScore;
-    console.log(computerScore)
+}
+
+// Function to see who won the match
+function matchWinner(){
+    let yourPoint = document.getElementById('your-score').innerHTML;
+    let computerPoint = document.getElementById('computer-score').innerHTML;
+
+    if(yourPoint <= 10){
+
+    }
 }

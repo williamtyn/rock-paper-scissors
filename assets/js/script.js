@@ -1,3 +1,4 @@
+// Global variables
 const yourChoice = document.getElementById("your-choice")
 const computerChoice = document.getElementById("computer-choice")
 const result = document.getElementById("result")
@@ -5,27 +6,32 @@ const rockChoice = document.getElementById("rock")
 const paperChoice = document.getElementById("paper")
 const scissorChoice = document.getElementById("scissor")
 const allChoices = document.getElementsByTagName("button")
+const computerScore = document.getElementById("computer-score")
 let computerChoices;
 let showResult;
+let yourScore;
 let choiseString = (rockChoice + paperChoice + scissorChoice)
 
-// Show users choice when pressing buttons
+// Make user choice and show computers choice and result
 rockChoice.addEventListener("click", function(){
     yourChoice.innerHTML = "Rock"
     generateComputerChoice()
     showWinner()
+    
 })
 
 paperChoice.addEventListener("click", function(){
     yourChoice.innerHTML = "Paper"
     generateComputerChoice()
     showWinner()
+    
 })
 
 scissorChoice.addEventListener("click", function(){
     yourChoice.innerHTML = "Scissors"
     generateComputerChoice()
     showWinner()
+    
 })
 
 
@@ -45,6 +51,7 @@ function generateComputerChoice(){
     computerChoice.innerHTML = computerChoices
 }
 
+// function to see if the user or computer won and increment scoreboard
 function showWinner() {
 
     if(computerChoices === yourChoice.innerHTML){
@@ -52,21 +59,43 @@ function showWinner() {
     }
     if(computerChoices === "Rock" && yourChoice.innerHTML === "Scissors"){
         showResult = "You Lose!"
+        computerScoreIncrement()
     }
     if(computerChoices === "Paper" && yourChoice.innerHTML === "Rock"){
         showResult = "You Lose!"
+        computerScoreIncrement()
     }
     if(computerChoices === "Scissors" && yourChoice.innerHTML === "Paper"){
         showResult = "You Lose!"
+        computerScoreIncrement()
     }
     if(computerChoices === "Rock" && yourChoice.innerHTML === "Paper"){
         showResult = "You Win!"
+        userScoreIncrement()
     }
     if(computerChoices === "Scissors" && yourChoice.innerHTML === "Rock"){
         showResult = "You Win!"
+        userScoreIncrement()
     }
     if(computerChoices === "Paper" && yourChoice.innerHTML === "Scissors"){
         showResult = "You Win!"
+        userScoreIncrement()
     }
     result.innerHTML = showResult;
+}
+
+// Function to increment userscore
+function userScoreIncrement() {
+    let userScore = document.getElementById("your-score").innerHTML;
+    userScore++;
+    document.getElementById('your-score').innerHTML = userScore;
+    console.log(userScore)
+}
+
+// Function to increment computerscore
+function computerScoreIncrement() {
+    let computerScore = document.getElementById("computer-score").innerHTML;
+    computerScore++;
+    document.getElementById('computer-score').innerHTML = computerScore;
+    console.log(computerScore)
 }

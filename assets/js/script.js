@@ -102,15 +102,16 @@ function computerScoreIncrement() {
 function matchWinner(){
     let yourPoint = document.getElementById('your-score').innerHTML;
     let computerPoint = document.getElementById('computer-score').innerHTML;
+    let userWins = document.getElementById("wins-pop");
+    let computerWins = document.getElementById("lose-pop");
 
     if(yourPoint === "3"){
-        alert("WINNER!");
+        userWins.style.display = "block";
     }
+        
     if(computerPoint === "3"){
-        computerScore++;
-        alert("LOSER!");
+        computerWins.style.display = "block";
     }
     console.log(yourPoint);
     console.log(computerPoint)
 }
-

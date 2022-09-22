@@ -17,21 +17,21 @@ rockChoice.addEventListener("click", function(){
     yourChoice.innerHTML = "Rock"
     generateComputerChoice()
     showWinner()
-    
+    matchWinner()
 })
 
 paperChoice.addEventListener("click", function(){
     yourChoice.innerHTML = "Paper"
     generateComputerChoice()
     showWinner()
-    
+    matchWinner()
 })
 
 scissorChoice.addEventListener("click", function(){
     yourChoice.innerHTML = "Scissors"
     generateComputerChoice()
     showWinner()
-    
+    matchWinner()
 })
 
 
@@ -103,7 +103,14 @@ function matchWinner(){
     let yourPoint = document.getElementById('your-score').innerHTML;
     let computerPoint = document.getElementById('computer-score').innerHTML;
 
-    if(yourPoint <= 10){
-
+    if(yourPoint === "3"){
+        alert("WINNER!");
     }
+    if(computerPoint === "3"){
+        computerScore++;
+        alert("LOSER!");
+    }
+    console.log(yourPoint);
+    console.log(computerPoint)
 }
+

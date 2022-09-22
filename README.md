@@ -1,108 +1,99 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Portfolio Project 2 - JavaScript Essentials
 
-Welcome williamtyn,
+Rock, Paper and Scissors is one of the worlds most popular games for both adults and children.
+Now you can play this wonderful game on our website.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Enjoy and Good luck!
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Image mockup of the website in a computer, tablet and phone](assets/images/readme_images/rps_mockup.png)
 
-## Gitpod Reminders
+## Live Site
+[Go to site](https://williamtyn.github.io/rock-paper-scissors/) 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Repository
+[View repository](https://github.com/williamtyn/rock-paper-scissors) 
 
-`python3 -m http.server`
+## Catalouge
+<ul>
+<li><a href="#target-group">Target Group</a></li>
+<li><a href="#site-structure">Site Structure</a>
+<ul>
+<li><a href="#">Heading and rules</a></li>
+<li><a href="#">Playarea</a></li>
+<li><a href="#r">Scorearea</a></li>
+<li><a href="#">Winner pop-up</a></li></ul>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#bugs">Bugs</a></li>
+<ul><li><a href="#unsolved-bugs">Unsolved Bugs</a></li></ul>
+<li><a href="#responsivness">Responsivness</a></li>
+<li><a href="#technologies">Technologies</a></li>
+<li><a href="#deployment">Deployment</a></li>
+<li><a href="#credits">Credits</a></li>
+<ul>
+<li><a href="#code-issues">Issues with code</a></li>
+<li><a href="#student-support">Student Support</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#code">Code</a></li></ul>
+<li><a href="#acknowledgements">Acknowledgements</a></li></ul>
+</li>
+</ul>
 
-A blue button should appear to click: _Make Public_,
+<h2 id="target-group">Target Group</h2>
+Nearly everybody in the world have played rock, paper scissor with their hands. Because many interact with digital games is this game perfect for everyone that wants to play this game, but in a digital environment, maybe because you don´t have a friend nearby to play with.
 
-Another blue button should appear to click: _Open Browser_.
+<h2 id="site-structure">Site Structure</h2>
+Rock, Paper, Scissors is a one page website for the ones who want to play this game. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<h3 id="#">Heading and rules</h3>
+<h3 id="#">Playarea</h3>
+<h3 id="#">Scorearea</h3>
+<h3 id="#">Winner pop-up</h3>
 
-A blue button should appear to click: _Make Public_,
+<h2 id="deployment">Deployment</h2>
+The website was deployed to GitHub Pages.
 
-Another blue button should appear to click: _Open Browser_.
+### How the site was deployed
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### 1. Settings in GitHub repository
+Go to <b>settings</b> in the GitHub repository of the site.
 
-To log into the Heroku toolbelt CLI:
+![GitHub settings](assets/images/readme_images/github_settings.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### 2. Go to Github Pages
+Go to <b>pages</b> in the menu on the left side.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![GitHub pages](assets/images/readme_images/github_pages.png)
 
-------
+#### 3. Source and branch
+Set the <b>source</b> to "Deploy from a branch".
+Change the <b>branch</b> to "main" <b>click</b> "save".
 
-## Release History
+![Source and Branch](assets/images/readme_images/branch_main.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### 4. Confirmation
+Wait for confirmation that the source have been <b>saved</b>.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Confirmation](assets/images/readme_images/saved.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### 5. Your site is live
+It can take a few minutes before you can see your <b>link</b> to the hosted website.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Live site](assets/images/readme_images/confirmation.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### How to fork repository
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+1. Log into GitHub and locate repository
+2. On the right side of the page select the <b>fork</b> option to create and copy of the original.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Fork](assets/images/readme_images/fork.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### How to create a Local Clone
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1. Under the repository name, click on the <b>code</b> tab.
+2. In the clone box, HTTPS tab, click on the <b>clipboard</b> icon.
+3. In your IED open GitBash.
+4. Changed the current working directory to the location you want the cloned directory to be made.
+5. Type <b>git clone</b> and then paste the URL copied from GitHub.
+6. Press <b>enter</b> and the local clone will be created.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+![Clone](assets/images/readme_images/clone.png)

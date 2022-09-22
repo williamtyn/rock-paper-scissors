@@ -13,6 +13,7 @@
 </head>
 <body>
     <h1 id="heading">Play Rock, Paper, Scissors</h1>
+    <p>Rock wins against scissors. Scissors win against paper. Paper wins against rock.</p>
     <div class="play-area">
         <div class="choice-area">
             <h2>Make your choice</h2>
@@ -29,13 +30,18 @@
                 <span id="result"></span></h2>
             
             <div>
-                <h3>Your Score <span id="your-score"></span></h3>
-                <h3>Computer Score <span id="computer-score"></span></h3>
+                <h3>Your Score: <span id="your-score"></span></h3>
+                <h3>Computer Score: <span id="computer-score"></span></h3>
             </div>
-            <div class="wins-pop">
+            <div id="wins-pop">
                 <h3>Congratulations!</h3>
                 <p>You won the match.</p>
                 <a href="#" alt="Play again" id="win-button">Play again</a>
+            </div>
+            <div id="lose-pop">
+                <h3>Sorry to say it!</h3>
+                <p>Computer won the match.</p>
+                <a href="#" alt="Play again" id="lose-button">Play again</a>
             </div>
     </div>
     <script src="assets/js/script.js"></script>

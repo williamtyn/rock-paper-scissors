@@ -29,6 +29,7 @@ body {
     margin: 3px;
 }
 
+/* Styling for scores */
 .your-score {
     position: left;
 }
@@ -42,6 +43,7 @@ body {
     margin: 0px auto;
 }
 
+/* Style for pop-up if the user wins or lose */
 #wins-pop {
     background: green;
     color: white;
@@ -54,13 +56,20 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+    
+}
+
+#wins-pop h3 {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #win-button {
-    text-transform: none;
+    text-decoration: none;
     color: white;
     border: 2px solid white;
     padding: 4px;
+    margin-top: 25px;
 }
 
 #lose-pop {
@@ -83,3 +92,24 @@ body {
     border: 2px solid white;
     padding: 4px;
 }
+
+/* Media queries for width 540px and down */
+@media (max-width: 540px){
+    
+body {
+    font-size: 100%;
+}
+
+/* Max 540px width for win/lose pop-up */
+#wins-pop {
+    width: 60vw;
+    height: 20vh;
+}
+
+#lose-pop {
+    width: 60vw;
+    height: 20vh;
+}
+
+}
+

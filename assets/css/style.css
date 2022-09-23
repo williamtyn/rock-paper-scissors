@@ -1,3 +1,17 @@
+/* Startpage */
+
+#hero-image {
+    background: url("../images/background.webp");
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* Gamepage */
 body {
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -92,6 +106,8 @@ body {
     border: 2px solid white;
     padding: 4px;
 }
+
+
 
 /* Media queries for width 540px and down */
 @media (max-width: 540px){

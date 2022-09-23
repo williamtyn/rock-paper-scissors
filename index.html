@@ -12,43 +12,26 @@
     <title>Play Rock, Paper, Scissors </title>
 </head>
 <body>
-    <!--heading and rules-->
-    <h1 id="heading">Play Rock, Paper, Scissors</h1>
-    <p>Rock wins against scissors. Scissors win against paper. Paper wins against rock.</p>
-    <!--Playarea to interact with user-->
-    <div class="play-area">
-        <div class="choice-area">
-            <h2>Make your choice</h2>
-            <button class="buttons" id="rock">Rock</button>
-            <button class="buttons" id="paper">Paper</button>
-            <button class="buttons" id="scissor">Scissors</button>
-            <h2>Your choice: <br>
-                <span id="your-choice"></span></h2>
-
-            <h2>Computer choice:<br>
-                <span id="computer-choice"></span></h2>
-
-            <h2>Result: <br>
-                <span id="result"></span></h2>
-            
-            <!--Show scores-->
-            <div>
-                <h3>Your Score: <span id="your-score"></span></h3>
-                <h3>Computer Score: <span id="computer-score"></span></h3>
-            </div>
-
-            <!--Win or loose pop-up-->
-            <div id="wins-pop">
-                <h3>Congratulations!</h3>
-                <p>You won the match.</p>
-                <a href="https://williamtyn.github.io/rock-paper-scissors/" alt="Homepage" id="win-button">Play again</a>
-            </div>
-            <div id="lose-pop">
-                <h3>Sorry to say it!</h3>
-                <p>Computer won the match.</p>
-                <a href="https://williamtyn.github.io/rock-paper-scissors/" alt="Homepage" id="lose-button">Play again</a>
-            </div>
-    </div>
+    <section>
+        <div>
+            <h1>Play Rock, Paper, Scissors</h1>
+        </div>
+        <div id="hero-image"></div>
+        <div>
+            <h2>How to play the game</h2>
+            <p>The game has three possible outcomes: a draw, a win or a loss. 
+                As a player you can choose if you want to play with the rock, the paper or the scissors. 
+                You will be playing against the computer and best to three (3) rounds, wins the match.</p>
+        </div>
+        <div>
+            <h2>The rules</h2>
+            <p>Rock wins against scissors. Scissors win against paper. Paper wins against rock.</p>
+        </div>
+        <div>
+            <input type="text" id="nickname" value="Choose your Nickname:" placeholder="Nickname" required>
+            <a href="game.html" alt="Go to game site">Start Game</a>
+        </div>
+    </section>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

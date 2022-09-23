@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google font and font awesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/689aa347cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Play Rock, Paper, Scissors </title>
+</head>
+<body>
+    <!--heading and rules-->
+    <h1 id="heading">Play Rock, Paper, Scissors</h1>
+    <p>Rock wins against scissors. Scissors win against paper. Paper wins against rock.</p>
+    <!--Playarea to interact with user-->
+    <div class="play-area">
+        <div class="choice-area">
+            <h2>Make your choice</h2>
+            <button class="buttons" id="rock">Rock</button>
+            <button class="buttons" id="paper">Paper</button>
+            <button class="buttons" id="scissor">Scissors</button>
+            <h2>Your choice: <br>
+                <span id="your-choice"></span></h2>
+
+            <h2>Computer choice:<br>
+                <span id="computer-choice"></span></h2>
+
+            <h2>Result: <br>
+                <span id="result"></span></h2>
+            
+            <!--Show scores-->
+            <div>
+                <h3>Your Score: <span id="your-score"></span></h3>
+                <h3>Computer Score: <span id="computer-score"></span></h3>
+            </div>
+
+            <!--Win or loose pop-up-->
+            <div id="wins-pop">
+                <h3>Congratulations!</h3>
+                <p>You won the match.</p>
+                <a href="https://williamtyn.github.io/rock-paper-scissors/" alt="Homepage" id="win-button">Play again</a>
+            </div>
+            <div id="lose-pop">
+                <h3>Sorry to say it!</h3>
+                <p>Computer won the match.</p>
+                <a href="https://williamtyn.github.io/rock-paper-scissors/" alt="Homepage" id="lose-button">Play again</a>
+            </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

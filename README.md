@@ -46,9 +46,32 @@ Nearly everybody in the world have played rock, paper scissor with their hands. 
 Rock, Paper, Scissors is a one page website for the ones who want to play this game. 
 
 <h3 id="#">Startpage</h3>
+
+#### How to.. and Rules
+As a new user the startpage is there to clarify how you play rock, paper,scissors and the rules of the game. Everything to minimize possible questions about the game.
+
+![Printscreen of startpage](assets/images/readme_images/startpage_image.png)
+
+#### Choose your nickname
+As a player you must enter you player username to play the game. When you click "Start Game!" you can enter and play.
+
+![Printscreen of choose username](assets/images/readme_images/nickname.png)
+
 <h3 id="#">Playarea</h3>
+On the playarea you can always find the name of the game and i reminder of the rules. The playarea also contains the bottons for you as a player to choose from along with the result and the scores for both you and the computer. Here you can see your entered username and this will remain the same as long as you keep playing and don´t exit the browser.
+
+![Playarea](assets/images/readme_images/playarea.png)
+
 <h3 id="#">Scorearea</h3>
+The scores will be updated automatically as you win or lose. When you or the computer reach 3 wins, the match is over.
+
+![Scorearea](assets/images/readme_images/scorearea.png)
+
 <h3 id="#">Winner pop-up</h3>
+When you as a player or the computer wins. You will se a pop-up with the information which the winner is. After that you can choose to play one more match.
+
+![Win](assets/images/readme_images/win.png)
+![Lose](assets/images/readme_images/lose.png)
 
 <h2 id="user-story">User Story</h2>
 As a user and player on the website i want to be able to have fun playing a challenge game with elements of chance. 

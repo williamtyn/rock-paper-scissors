@@ -18,10 +18,10 @@ Enjoy and Good luck!
 <li><a href="#target-group">Target Group</a></li>
 <li><a href="#site-structure">Site Structure</a>
 <ul>
-<li><a href="startpage">Startpage</a></li>
-<li><a href="playarea">Playarea</a></li>
-<li><a href="scorearear">Scorearea</a></li>
-<li><a href="pop">Winner pop-up</a></li></ul>
+<li><a href="#startpage">Startpage</a></li>
+<li><a href="#playarea">Playarea</a></li>
+<li><a href="#scorearear">Scorearea</a></li>
+<li><a href="#pop">Winner pop-up</a></li></ul>
 <li><a href="#user-story">User Story</a></li>
 <li><a href="#testing">Testing</a></li>
 <li><a href="#bugs">Bugs</a></li>

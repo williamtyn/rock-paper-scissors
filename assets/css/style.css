@@ -147,7 +147,32 @@ body {
     padding: 4px;
 }
 
+/* Media queries for width 700px and down */
+@media (max-width: 700px){
 
+#you {
+    display: block;
+    margin: 40px;
+}
+#computer {
+    display: block;
+    margin: 40px;
+}
+#your {
+    display: block;
+    margin: 40px;
+}
+
+#comps {
+    display: block;
+    margin: 40px;
+}
+
+.play-area {
+    height: 700px;
+}
+
+}
 
 /* Media queries for width 540px and down */
 @media (max-width: 540px){

@@ -25,7 +25,7 @@ Enjoy and Good luck!
 <li><a href="#user-story">User Story</a></li>
 <li><a href="#testing">Testing</a></li>
 <li><a href="#bugs">Bugs</a></li>
-<ul><li><a href="#unsolved-bugs">Unsolved Bugs</a></li></ul>
+<ul><li><a href="#unsolved-bugs">Unsolved Bugs/optimal features</a></li></ul>
 <li><a href="#responsivness">Responsivness</a></li>
 <li><a href="#technologies">Technologies</a></li>
 <li><a href="#deployment">Deployment</a></li>
@@ -54,7 +54,7 @@ Rock, Paper, Scissors is a one page website for the ones who want to play this g
 As a user and player on the website i want to be able to have fun playing a challenge game with elements of chance. 
 End user goal: Have a chance to win agains the computer with maximum attempts.  
 End user goal: Provide a challenging game with increasing levels of difficulty to entertain online users.
-
+<br />
 
 <h2 id="testing">Testing</h2>
 <li><a href="https://validator.w3.org/#validate_by_input" target="_blank" rel="noopener">HTML5 Validation</a> - Validated the HTML5 code.</li> 
@@ -73,8 +73,32 @@ End user goal: Provide a challenging game with increasing levels of difficulty t
 
 ![Lighthouse Scoring](assets/images/readme_images/lighthouse.png)
 
+<h2 id="bugs">Bugs</h2>
+The only bug i can find on the website is on the index.html. Because the script runs before the user have added a username. You can see in the console <em>"Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')".</em>. If i had more time i have made 2 separated script files to run the index javascript in a separated script file from where the game script runs.
+
+<h3 id="unsolved-bugs">Unsolved Bugs/optimal features</h3>
+I have added images rock, paper and scissor to images. I had a plan to add theese images to show instead of the text: Rock, Papper and Scissors in the "'Username'" Choice and "Computer Choise". Due to lack of deadlinetime and that this was not an expectation from the user or customer. I´v added this to future feature.
+
+<h2 id="responsivness">Responsivness</h2>
+The responsive design was tested with <a href="https://developer.chrome.com/docs/devtools/" target="_blank" rel="noopener">Google Chrome DevTools</a>. The testing of responsivness included Smartphones, Tablets and bigger screens. Media Queries was added in CSS for screens with 700px width and below.
+
+<h2 id="technologies">Tecnhologies Used</h2>
+
+* [HTML5](https://www.w3.org/TR/2014/REC-html5-20141028/introduction.html)- Used for the content and structure of site
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Used for styling of site
+* [Javascript](https://www.javascript.com/) - Used to create dynamic and interactive web content
+* [Google Fonts](https://fonts.google.com/) - Used for styling of fonts 
+* [Font Awesome](https://fontawesome.com/) - Setup ready but no need for use in this sprint
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for testing of different code, very used with creating responsiveness of site and see console.log when bulding in javascript
+* [Gitpod](https://www.gitpod.io/)- Creating and hosting of site
+* [Github](https://github.com/)- Used to deploy the site
+* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php) - Used to display homepage on different devices
+* [Convertio](https://convertio.co/) - For converting jpg to webp for smaller file size
+
+
 <h2 id="deployment">Deployment</h2>
 The website was deployed to GitHub Pages.
+
 
 ### How the site was deployed
 
@@ -121,3 +145,27 @@ It can take a few minutes before you can see your <b>link</b> to the hosted webs
 6. Press <b>enter</b> and the local clone will be created.
 
 ![Clone](assets/images/readme_images/clone.png)
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="code-issues">Issues with code</h3>
+
+Many of my issues with both CSS and Javascript was partly resolved thanks to [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/).
+
+<h3 id="student-support">Student Support</h3>
+
+I got stuck with problem of getting element value to Javascript and thanks to Alex at Student Support at [Codeinstitute](https://codeinstitute.net/) i was able to resolve the problem.
+
+<h3 id="images">Image</h3>
+
+The hero image on the index.html is downloaded from [This site](https://projects.raspberrypi.org/en/projects/rock-paper-scissors) and a special thanks to the image owner.
+
+<h3 id="code">Code</h3>
+
+I got stuck with the function to check winner in the game and thanks to inspiration from [Miky Renato](https://github.com/mikyrenato/2nd-Project-Rock-Paper-Scissors/blob/main/assets/js/script.js) and his solution to the function i was able to build my own solution.
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+This website was completed as a Portfolio Project 2 for the Fullstack Diploma at <a href="https://codeinstitute.net/" target="_blank" rel="noopener">Codeinstitute</a>. The project is for educational purpose only and not for public consumption. 
+
+
+William Tynér, September 2022.

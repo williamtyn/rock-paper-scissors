@@ -194,7 +194,8 @@ The hero image on the index.html is downloaded from [This site](https://projects
 I got stuck with the function to check winner in the game and thanks to inspiration from [Miky Renato](https://github.com/mikyrenato/2nd-Project-Rock-Paper-Scissors/blob/main/assets/js/script.js) and his solution to the function i was able to build my own solution.
 
 <h2 id="acknowledgements">Acknowledgements</h2>
-This website was completed as a Portfolio Project 2 for the Fullstack Diploma at <a href="https://codeinstitute.net/" target="_blank" rel="noopener">Codeinstitute</a>. The project is for educational purpose only and not for public consumption. 
+This website was completed as a Portfolio Project 2 for the Fullstack Diploma at <a href="https://codeinstitute.net/" target="_blank" rel="noopener">Codeinstitute</a>. A special thanks to my Mentor Harry Dhillon for tips and tricks due to this project. The project is for educational purpose only and not for public consumption. 
 
 
 William Tynér, September 2022.
+[LinkedIn](https://www.linkedin.com/in/williamtyner/)

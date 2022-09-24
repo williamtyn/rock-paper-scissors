@@ -9,27 +9,36 @@ body {
 /* Startpage */
 
 #hero-image {
-    background: url("../images/hero_image.webp");
-    height: 80vh;
+    background: url("../images/rock-paper-scissors.webp");
+    height: 50vh;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    
 
 }
 #nickname {
     text-align: center;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.nickname {
+    height: 200px;
 }
 
 #start-game {
     border: 1px solid black;
     background-color: green;
     color: black;
-    padding: 7px;
-    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
 }
+
+#start-game:hover {
+    transform: scale(1.1)
+}
+
 /* Gamepage */
 
 .heading {

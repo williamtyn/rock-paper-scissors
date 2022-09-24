@@ -18,10 +18,10 @@ Enjoy and Good luck!
 <li><a href="#target-group">Target Group</a></li>
 <li><a href="#site-structure">Site Structure</a>
 <ul>
-<li><a href="#">Startpage</a></li>
-<li><a href="#">Playarea</a></li>
-<li><a href="#r">Scorearea</a></li>
-<li><a href="#">Winner pop-up</a></li></ul>
+<li><a href="startpage">Startpage</a></li>
+<li><a href="playarea">Playarea</a></li>
+<li><a href="scorearear">Scorearea</a></li>
+<li><a href="pop">Winner pop-up</a></li></ul>
 <li><a href="#user-story">User Story</a></li>
 <li><a href="#testing">Testing</a></li>
 <li><a href="#bugs">Bugs</a></li>
@@ -45,7 +45,7 @@ Nearly everybody in the world have played rock, paper scissor with their hands. 
 <h2 id="site-structure">Site Structure</h2>
 Rock, Paper, Scissors is a one page website for the ones who want to play this game. 
 
-<h3 id="#">Startpage</h3>
+<h3 id="startpage">Startpage</h3>
 
 #### How to.. and Rules
 As a new user the startpage is there to clarify how you play rock, paper,scissors and the rules of the game. Everything to minimize possible questions about the game.
@@ -57,17 +57,17 @@ As a player you must enter you player username to play the game. When you click 
 
 ![Printscreen of choose username](assets/images/readme_images/nickname.png)
 
-<h3 id="#">Playarea</h3>
+<h3 id="playarea">Playarea</h3>
 On the playarea you can always find the name of the game and i reminder of the rules. The playarea also contains the bottons for you as a player to choose from along with the result and the scores for both you and the computer. Here you can see your entered username and this will remain the same as long as you keep playing and don´t exit the browser.
 
 ![Playarea](assets/images/readme_images/playarea.png)
 
-<h3 id="#">Scorearea</h3>
+<h3 id="scorearea">Scorearea</h3>
 The scores will be updated automatically as you win or lose. When you or the computer reach 3 wins, the match is over.
 
 ![Scorearea](assets/images/readme_images/scorearea.png)
 
-<h3 id="#">Winner pop-up</h3>
+<h3 id="pop">Winner pop-up</h3>
 When you as a player or the computer wins. You will se a pop-up with the information which the winner is. After that you can choose to play one more match.
 
 ![Win](assets/images/readme_images/win.png)
@@ -75,8 +75,8 @@ When you as a player or the computer wins. You will se a pop-up with the informa
 
 <h2 id="user-story">User Story</h2>
 As a user and player on the website i want to be able to have fun playing a challenge game with elements of chance. 
-End user goal: Have a chance to win agains the computer with maximum attempts.  
-End user goal: Provide a challenging game with increasing levels of difficulty to entertain online users.
+<br>**End user goal:** Have a chance to win agains the computer with maximum attempts.  
+<br>**End site owner goals:** Provide a challenging game with increasing levels of difficulty to entertain online users.
 <br />
 
 <h2 id="testing">Testing</h2>
@@ -90,6 +90,7 @@ End user goal: Provide a challenging game with increasing levels of difficulty t
 ![Game HTML](assets/images/readme_images/css_validation.png)
 
 <li><a href="https://jshint.com/" target="_blank" rel="noopener">Javascript Validation</a> - Validated the code</li>
+
 ![Javascript Validation](assets/images/readme_images/js_validation.png)
 
 <li><a href="https://web.dev/measure/" target="_blank" rel="noopener">Lighthouse</a> - See scoring below</li>

@@ -64,14 +64,33 @@ body {
     margin: 3px;
 }
 
+#res {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#you {
+    display: inline-block;
+    margin: 40px;
+}
+#computer {
+    display: inline-block;
+    margin: 40px;
+}
 /* Styling for scores */
-.your-score {
-    position: left;
+#scores {
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
-.computer.score {
-    position: right;
-    box-sizing: border-box;
+#your {
+    display: inline-block;
+    margin: 40px;
+}
+
+#comps {
+    display: inline-block;
+    margin: 40px;
 }
 
 .rules-area {

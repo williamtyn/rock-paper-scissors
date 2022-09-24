@@ -7,6 +7,10 @@ const paperChoice = document.getElementById("paper");
 const scissorChoice = document.getElementById("scissor");
 let computerChoices;
 let showResult;
+let usrname = window.localStorage.getItem('username');
+const namebox = document.querySelector('#change')
+namebox.innerHTML = usrname + ' choice:';
+let nameinput = document.getElementById('nickname');
 
 // Make user choice and show computers choice and result
 rockChoice.addEventListener("click", function(){
@@ -108,4 +112,12 @@ function matchWinner(){
     if(computerPoint === "3"){
         computerWins.style.display = "block";
     }
+}
+// Function to store player nickname
+function storeNick() {
+    window.localStorage.setItem('username', document.getElementById('nickname').value);
+    if (document.getElementById('nickname').value === '') {
+        return;
+    }
+    else window.location.replace("./game.html");
 }

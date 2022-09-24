@@ -8,7 +8,7 @@ const scissorChoice = document.getElementById("scissor");
 let computerChoices;
 let showResult;
 let usrname = window.localStorage.getItem('username');
-const namebox = document.querySelector('#change')
+const namebox = document.querySelector('#change');
 namebox.innerHTML = `${usrname}s choice:`;
 let nameinput = document.getElementById('nickname');
 

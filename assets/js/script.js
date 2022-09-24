@@ -9,7 +9,7 @@ let computerChoices;
 let showResult;
 let usrname = window.localStorage.getItem('username');
 const namebox = document.querySelector('#change')
-namebox.innerHTML = usrname + ' choice:';
+namebox.innerHTML = `${usrname}s choice:`;
 let nameinput = document.getElementById('nickname');
 
 // Make user choice and show computers choice and result
@@ -121,3 +121,5 @@ function storeNick() {
     }
     else window.location.replace("./game.html");
 }
+
+// End of Javascript

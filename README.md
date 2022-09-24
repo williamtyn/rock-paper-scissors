@@ -100,6 +100,11 @@ End user goal: Provide a challenging game with increasing levels of difficulty t
 The only bug i can find on the website is on the index.html. Because the script runs before the user have added a username. You can see in the console <em>"Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')".</em>. If i had more time i have made 2 separated script files to run the index javascript in a separated script file from where the game script runs.
 
 <h3 id="unsolved-bugs">Unsolved Bugs/optimal features</h3>
+
+#### Press enter to play
+Today the user need to click "Enter Game!" with the mouse to play. In future features i will add eventlistener for enter so the player can enter their nickname and press enter to play.
+
+#### Images to choices
 I have added images rock, paper and scissor to images. I had a plan to add theese images to show instead of the text: Rock, Papper and Scissors in the "'Username'" Choice and "Computer Choise". Due to lack of deadlinetime and that this was not an expectation from the user or customer. I´v added this to future feature.
 
 <h2 id="responsivness">Responsivness</h2>

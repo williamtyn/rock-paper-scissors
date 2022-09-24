@@ -18,10 +18,11 @@ Enjoy and Good luck!
 <li><a href="#target-group">Target Group</a></li>
 <li><a href="#site-structure">Site Structure</a>
 <ul>
-<li><a href="#">Heading and rules</a></li>
+<li><a href="#">Startpage</a></li>
 <li><a href="#">Playarea</a></li>
 <li><a href="#r">Scorearea</a></li>
 <li><a href="#">Winner pop-up</a></li></ul>
+<li><a href="#user-story">User Story</a></li>
 <li><a href="#testing">Testing</a></li>
 <li><a href="#bugs">Bugs</a></li>
 <ul><li><a href="#unsolved-bugs">Unsolved Bugs</a></li></ul>
@@ -44,10 +45,33 @@ Nearly everybody in the world have played rock, paper scissor with their hands. 
 <h2 id="site-structure">Site Structure</h2>
 Rock, Paper, Scissors is a one page website for the ones who want to play this game. 
 
-<h3 id="#">Heading and rules</h3>
+<h3 id="#">Startpage</h3>
 <h3 id="#">Playarea</h3>
 <h3 id="#">Scorearea</h3>
 <h3 id="#">Winner pop-up</h3>
+
+<h2 id="user-story">User Story</h2>
+As a user and player on the website i want to be able to have fun playing a challenge game with elements of chance. 
+End user goal: Have a chance to win agains the computer with maximum attempts.  
+End user goal: Provide a challenging game with increasing levels of difficulty to entertain online users.
+
+
+<h2 id="testing">Testing</h2>
+<li><a href="https://validator.w3.org/#validate_by_input" target="_blank" rel="noopener">HTML5 Validation</a> - Validated the HTML5 code.</li> 
+
+![Index HTML](assets/images/readme_images/index_validation.png)
+![Game HTML](assets/images/readme_images/gamepage_validation.png)
+
+<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">CSS Validation</a> - Validated the code</li>
+
+![Game HTML](assets/images/readme_images/css_validation.png)
+
+<li><a href="https://jshint.com/" target="_blank" rel="noopener">Javascript Validation</a> - Validated the code</li>
+![Javascript Validation](assets/images/readme_images/js_validation.png)
+
+<li><a href="https://web.dev/measure/" target="_blank" rel="noopener">Lighthouse</a> - See scoring below</li>
+
+![Lighthouse Scoring](assets/images/readme_images/lighthouse.png)
 
 <h2 id="deployment">Deployment</h2>
 The website was deployed to GitHub Pages.

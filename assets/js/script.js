@@ -9,8 +9,14 @@ let computerChoices;
 let showResult;
 let usrname = window.localStorage.getItem('username');
 const namebox = document.querySelector('#change');
-namebox.innerHTML = `${usrname}s choice:`;
 let nameinput = document.getElementById('nickname');
+
+window.onload = init;
+
+function init() {
+    if(typeof(namebox) != 'undefined' && namebox != null){
+        namebox.innerHTML = `${usrname}s choice:`;
+
 
 // Make user choice and show computers choice and result
 rockChoice.addEventListener("click", function(){
@@ -33,6 +39,7 @@ scissorChoice.addEventListener("click", function(){
     showWinner();
     matchWinner();
 });
+}}
 
 
 // Generates random computer choice
@@ -115,11 +122,9 @@ function matchWinner(){
 }
 // Function to store player nickname
 function storeNick() {
-    window.localStorage.setItem('username', document.getElementById('nickname').value);
-    if (document.getElementById('nickname').value === '') {
+    window.localStorage.setItem("username", document.getElementById("nickname").value);
+    if (document.getElementById("nickname").value === '') {
         return;
     }
     else window.location.replace("./game.html");
 }
-
-// End of Javascript
